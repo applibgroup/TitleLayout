@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:sd_rl_title_bar_height"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:background_element="$color:red">
+
+    <DirectionalLayout
+        ohos:id="$+id:sd_ll_center"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:orientation="vertical">
+
+        <Text
+            ohos:id="$+id:sd_tv_title"
+            ohos:height="0vp"
+            ohos:width="match_parent"
+            ohos:weight="3"
+            ohos:text_alignment="center"
+            ohos:max_text_lines="1"
+            ohos:text="title"
+            ohos:text_size="28fp"
+            ohos:visibility="visible"/>
+        <Text
+            ohos:id="$+id:sd_tv_sub_title"
+            ohos:height="0vp"
+            ohos:width="match_parent"
+            ohos:weight="2"
+            ohos:text_alignment="center"
+            ohos:max_text_lines="1"
+            ohos:text="subtitle"
+            ohos:text_size="22fp"
+            ohos:bottom_padding="10vp"
+            ohos:visibility="visible"/>
+    </DirectionalLayout>
+
+    <DependentLayout
+        ohos:id="$+id:sd_rl_left"
+        ohos:height="match_parent"
+        ohos:width="match_content">
+
+        <Image
+            ohos:id="$+id:sd_iv_left"
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:start_padding="10vp"
+            ohos:image_src="$media:icon_back"
+            ohos:visibility="visible"/>
+
+        <Text
+            ohos:id="$+id:sd_tv_left"
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:text_size="18fp"
+            ohos:end_of="$id:sd_iv_left"
+            ohos:text_alignment="center"
+            ohos:start_padding="10vp"
+            ohos:text="back"
+            ohos:visibility="visible"/>
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:id="$+id:sd_rl_right"
+        ohos:height="match_parent"
+        ohos:width="match_content"
+        ohos:align_parent_end="true">
+
+        <Image
+            ohos:id="$+id:sd_iv_right"
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:end_of="$id:sd_tv_right"
+            ohos:end_padding="10vp"
+            ohos:image_src="$media:icon_collection"
+            ohos:visibility="visible"/>
+
+        <Text
+            ohos:id="$+id:sd_tv_right"
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:text_alignment="center"
+            ohos:text_size="18fp"
+            ohos:end_padding="10vp"
+            ohos:text="search"
+            ohos:visibility="visible"/>
+    </DependentLayout>
+
+    <Component
+        ohos:id="$+id:sd_view_line"
+        ohos:height="0.5vp"
+        ohos:width="match_parent"
+        ohos:align_parent_bottom="true"
+        ohos:background_element="$color:black"/>
+</DependentLayout>
