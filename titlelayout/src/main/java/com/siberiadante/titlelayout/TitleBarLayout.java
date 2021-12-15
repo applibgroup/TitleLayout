@@ -529,9 +529,7 @@ public class TitleBarLayout extends DependentLayout implements Component.Estimat
      */
     public void setTitleColor(int titleColor) {
         if (titleColor != 0) {
-            ShapeElement shapeElement = new ShapeElement();
-            shapeElement.setRgbColor(RgbColor.fromArgbInt(titleColor));
-            mTvTitle.setBackground(shapeElement);
+            mTvTitle.setTextColor(new Color(titleColor));
         }
     }
 

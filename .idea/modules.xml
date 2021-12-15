@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/TitleLayout.iml" filepath="$PROJECT_DIR$/.idea/TitleLayout.iml" group="TitleLayout" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/entry/entry.iml" filepath="$PROJECT_DIR$/.idea/modules/entry/entry.iml" group="TitleLayout/entry" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/titlelayout/titlelayout.iml" filepath="$PROJECT_DIR$/.idea/modules/titlelayout/titlelayout.iml" group="TitleLayout/titlelayout" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TitleLayout_hmos.iml" filepath="$PROJECT_DIR$/.idea/modules/TitleLayout_hmos.iml" group="TitleLayout_hmos" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/entry/entry.iml" filepath="$PROJECT_DIR$/.idea/modules/entry/entry.iml" group="TitleLayout_hmos/entry" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/titlelayout/titlelayout.iml" filepath="$PROJECT_DIR$/.idea/modules/titlelayout/titlelayout.iml" group="TitleLayout_hmos/titlelayout" />
     </modules>
   </component>
 </project>

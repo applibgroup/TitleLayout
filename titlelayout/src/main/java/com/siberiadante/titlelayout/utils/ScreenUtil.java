@@ -3,7 +3,6 @@ package com.siberiadante.titlelayout.utils;
 
 import ohos.aafwk.ability.Ability;
 import ohos.aafwk.ability.DataAbilityHelper;
-import ohos.agp.colors.RgbPalette;
 import ohos.agp.components.AttrHelper;
 import ohos.agp.utils.Color;
 import ohos.agp.window.service.DisplayManager;

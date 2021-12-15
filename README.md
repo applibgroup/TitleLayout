@@ -317,6 +317,14 @@ This library has been inspired by [SiberiaDante/TitleLayout](https://github.com/
             <td>setRightTextColor(int rightTextColor)</td>
             <td>Set the right text color</td>
         </tr>
+         <tr>
+            <td>setLeftImage(int imageResId)</td>
+            <td>Set the left image</td>
+         </tr>
+          <tr>
+            <td>setRightImage(int imageResId)</td>
+            <td>Set the right image</td>
+          </tr>
         <tr>
             <td>setTitleClickListener(OnClickListener listener)</td>
             <td>Title Click to listen</td>
