@@ -5,7 +5,7 @@
     ohos:height="match_parent"
     ohos:width="match_parent"
     ohos:orientation="vertical"
-    ohos:background_element="$color:red">
+    ohos:background_element="#FA0303">
 
     <DirectionalLayout
         ohos:id="$+id:sd_ll_center"
@@ -93,5 +93,5 @@
         ohos:height="0.5vp"
         ohos:width="match_parent"
         ohos:align_parent_bottom="true"
-        ohos:background_element="$color:black"/>
+        ohos:background_element="#000000"/>
 </DependentLayout>

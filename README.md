@@ -39,7 +39,7 @@ This library has been inspired by [SiberiaDante/TitleLayout](https://github.com/
         dante:d_left_image_width="30vp"
         dante:d_left_text="back"
         dante:d_left_text_style="normal"
-        dante:d_left_text_color="$color:black"
+        dante:d_left_text_color="#000000"
         dante:d_left_text_padding_start="10vp"
         dante:d_left_text_size="45fp"
         dante:d_line_height="1px"
@@ -50,12 +50,12 @@ This library has been inspired by [SiberiaDante/TitleLayout](https://github.com/
         dante:d_title_size="50vp"
         dante:d_title_style="bold"
         dante:d_title_text="Here is title"
-        dante:d_title_color="$color:black"
+        dante:d_title_color="#000000"
         dante:d_subtitle_size="11fp"
         dante:d_subtitle_style="normal"
         dante:d_subtitle_text="subtitle"
         dante:d_subtitle_color="$color:gray"
-        dante:d_title_layout_background="$color:red"
+        dante:d_title_layout_background="#FA0303"
         dante:d_title_layout_height="70vp"/>
 ```
 
