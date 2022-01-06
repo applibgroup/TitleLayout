@@ -15,9 +15,9 @@ import static org.junit.Assert.assertEquals;
 
 
 public class MainAbilityOhosTest {
-    private static final String mEditedTitle= "Edited Title";
-    private static final String mEditedSubtitle= "Edited Subtitle";
-    private static final String mPrevious= "previous";
+    private static final String EDITED_TITLE_TEXT= "Edited Title";
+    private static final String EDITED_SUBTITLE_TEXT= "Edited Subtitle";
+    private static final String PREVIOUS_TEXT= "previous";
     TitleBarLayout titleBarLayout;
     Text  mTvTitle;
     Text mTvSubTitle;
@@ -46,8 +46,8 @@ public class MainAbilityOhosTest {
 
     @Test
     public void testSetTitle() {
-        titleBarLayout.setTitle(mEditedTitle);
-        assertEquals(mEditedTitle, mTvTitle.getText());
+        titleBarLayout.setTitle(EDITED_TITLE_TEXT);
+        assertEquals(EDITED_TITLE_TEXT, mTvTitle.getText());
     }
 
     @Test
@@ -64,16 +64,16 @@ public class MainAbilityOhosTest {
 
     @Test
     public void testSetTitleStyle() {
-        titleBarLayout.setTitleStyle(mEditedTitle, 50, Color.WHITE.getValue());
-        assertEquals(mEditedTitle, mTvTitle.getText());
+        titleBarLayout.setTitleStyle(EDITED_TITLE_TEXT, 50, Color.WHITE.getValue());
+        assertEquals(EDITED_TITLE_TEXT, mTvTitle.getText());
         assertEquals(50, mTvTitle.getTextSize());
         assertEquals(Color.WHITE, mTvTitle.getTextColor());
     }
 
     @Test
     public void testSetSubTitle() {
-        titleBarLayout.setSubTitle(mEditedSubtitle);
-        assertEquals(mEditedSubtitle, mTvSubTitle.getText());
+        titleBarLayout.setSubTitle(EDITED_SUBTITLE_TEXT);
+        assertEquals(EDITED_SUBTITLE_TEXT, mTvSubTitle.getText());
     }
 
     @Test
@@ -90,16 +90,16 @@ public class MainAbilityOhosTest {
 
     @Test
     public void testSetSubTitleStyle() {
-        titleBarLayout.setSubTitleStyle(mEditedSubtitle, 30, Color.WHITE.getValue());
-        assertEquals(mEditedSubtitle, mTvSubTitle.getText());
+        titleBarLayout.setSubTitleStyle(EDITED_SUBTITLE_TEXT, 30, Color.WHITE.getValue());
+        assertEquals(EDITED_SUBTITLE_TEXT, mTvSubTitle.getText());
         assertEquals(30, mTvSubTitle.getTextSize());
         assertEquals(Color.WHITE, mTvSubTitle.getTextColor());
     }
 
     @Test
     public void testSetLeftText() {
-        titleBarLayout.setLeftText(mPrevious);
-        assertEquals(mPrevious, mTvLeft.getText());
+        titleBarLayout.setLeftText(PREVIOUS_TEXT);
+        assertEquals(PREVIOUS_TEXT, mTvLeft.getText());
     }
 
     @Test
@@ -116,8 +116,8 @@ public class MainAbilityOhosTest {
 
     @Test
     public void testSetLeftStyle() {
-        titleBarLayout.setLeftStyle(mPrevious, 30, Color.WHITE.getValue());
-        assertEquals(mPrevious, mTvLeft.getText());
+        titleBarLayout.setLeftStyle(PREVIOUS_TEXT, 30, Color.WHITE.getValue());
+        assertEquals(PREVIOUS_TEXT, mTvLeft.getText());
         assertEquals(30, mTvLeft.getTextSize());
         assertEquals(Color.WHITE, mTvLeft.getTextColor());
     }
