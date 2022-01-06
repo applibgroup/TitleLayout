@@ -15,6 +15,9 @@ import static org.junit.Assert.assertEquals;
 
 
 public class MainAbilityOhosTest {
+    private static final String mEditedTitle= "Edited Title";
+    private static final String mEditedSubtitle= "Edited Subtitle";
+    private static final String mPrevious= "previous";
     TitleBarLayout titleBarLayout;
     Text  mTvTitle;
     Text mTvSubTitle;
@@ -43,8 +46,8 @@ public class MainAbilityOhosTest {
 
     @Test
     public void testSetTitle() {
-        titleBarLayout.setTitle("Edited Title");
-        assertEquals("Edited Title", mTvTitle.getText());
+        titleBarLayout.setTitle(mEditedTitle);
+        assertEquals(mEditedTitle, mTvTitle.getText());
     }
 
     @Test
@@ -61,16 +64,16 @@ public class MainAbilityOhosTest {
 
     @Test
     public void testSetTitleStyle() {
-        titleBarLayout.setTitleStyle("Edited Title", 50, Color.WHITE.getValue());
-        assertEquals("Edited Title", mTvTitle.getText());
+        titleBarLayout.setTitleStyle(mEditedTitle, 50, Color.WHITE.getValue());
+        assertEquals(mEditedTitle, mTvTitle.getText());
         assertEquals(50, mTvTitle.getTextSize());
         assertEquals(Color.WHITE, mTvTitle.getTextColor());
     }
 
     @Test
     public void testSetSubTitle() {
-        titleBarLayout.setSubTitle("Edited Subtitle");
-        assertEquals("Edited Subtitle", mTvSubTitle.getText());
+        titleBarLayout.setSubTitle(mEditedSubtitle);
+        assertEquals(mEditedSubtitle, mTvSubTitle.getText());
     }
 
     @Test
@@ -87,16 +90,16 @@ public class MainAbilityOhosTest {
 
     @Test
     public void testSetSubTitleStyle() {
-        titleBarLayout.setSubTitleStyle("Edited Subtitle", 30, Color.WHITE.getValue());
-        assertEquals("Edited Subtitle", mTvSubTitle.getText());
+        titleBarLayout.setSubTitleStyle(mEditedSubtitle, 30, Color.WHITE.getValue());
+        assertEquals(mEditedSubtitle, mTvSubTitle.getText());
         assertEquals(30, mTvSubTitle.getTextSize());
         assertEquals(Color.WHITE, mTvSubTitle.getTextColor());
     }
 
     @Test
     public void testSetLeftText() {
-        titleBarLayout.setLeftText("previous");
-        assertEquals("previous", mTvLeft.getText());
+        titleBarLayout.setLeftText(mPrevious);
+        assertEquals(mPrevious, mTvLeft.getText());
     }
 
     @Test
@@ -113,8 +116,8 @@ public class MainAbilityOhosTest {
 
     @Test
     public void testSetLeftStyle() {
-        titleBarLayout.setLeftStyle("previous", 30, Color.WHITE.getValue());
-        assertEquals("previous", mTvLeft.getText());
+        titleBarLayout.setLeftStyle(mPrevious, 30, Color.WHITE.getValue());
+        assertEquals(mPrevious, mTvLeft.getText());
         assertEquals(30, mTvLeft.getTextSize());
         assertEquals(Color.WHITE, mTvLeft.getTextColor());
     }
